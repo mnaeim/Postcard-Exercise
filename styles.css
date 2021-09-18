@@ -3,7 +3,7 @@ body {
 }
 
 .postcard {
-	background: white;
+	background: red;
 	width: 400px;
 	height: 300px;
 	margin: auto;
@@ -23,10 +23,34 @@ body {
 }
 
 .postcard-body {
-    display: flex;
+	display: flex;
 }
 
 * {
 	border: 1px dashed red;
 	min-height: 10px;
+}
+
+.body-left p:first-child {
+	margin-top: 0%;
+}
+
+.body-left {
+	padding: 5px 5px 5px;
+}
+
+.body-right {
+	padding: 5px 5px 5px;
+}
+
+input {
+	border-bottom: grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 10px;
 }
