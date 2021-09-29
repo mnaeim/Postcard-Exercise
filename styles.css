@@ -3,7 +3,7 @@ body {
 }
 
 .postcard {
-	background: red;
+	background: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
@@ -11,6 +11,8 @@ body {
 
 .postcard-header {
 	display: flex;
+	padding: 5px 5px 5px;
+	font-family: serif;
 }
 
 .postcard-header img {
@@ -24,10 +26,11 @@ body {
 
 .postcard-body {
 	display: flex;
+	font-family: fantasy;
 }
 
 * {
-	border: 1px dashed red;
+	border: 1px grey;
 	min-height: 10px;
 }
 
@@ -44,7 +47,7 @@ body {
 }
 
 input {
-	border-bottom: grey;
+	border-bottom: groove;
 }
 
 .postcard-footer {
